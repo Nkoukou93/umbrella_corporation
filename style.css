@@ -124,7 +124,7 @@ main{
   }
 
 
-/* Media query pour les écrans de taille maximale de 767 pixels (mobiles) */
+
 @media screen and (max-width: 767px) {
   body {
     margin: 10px;
@@ -167,7 +167,7 @@ main{
   }
   .paragraphe{
    width: 100%;
-   border: 1px solid red;
+   
     
 }
 p{
@@ -176,12 +176,57 @@ p{
 }
 }
 
-/* Media query pour les écrans de taille maximale de 1024 pixels (tablettes) */
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .votre-element {
-      width: 50%; /* Vous pouvez ajuster la largeur selon vos besoins */
-      /* Autres styles spécifiques pour les tablettes */
+  body {
+    margin: 10px;
+    
+      
   }
+  nav{
+    display: block;
+    margin-top: 50px;
+
+  }
+  .nav_bar{
+    margin-top: 20px;
+  }
+  h1{
+  color: #FFF;
+  font-size: 50px;
+  font-style: normal;
+  line-height: normal;
+  margin: 10px;
+  
+  }
+  main{
+    margin: 10px;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  h6{
+    color: #324A5F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 229px;
+    position: relative;
+    left: 20px;
+    margin: 10px;
+  }
+  .paragraphe{
+   width: 100%;
+   
+    
 }
+p{
+  color: white;
+  width: 100%;
+}
+}
+
 
   
